@@ -1,0 +1,3 @@
+extensions:
+    nette.latte: Nette\Bridges\ApplicationDI\LatteExtension( '%tempDir%/cache/latte', %debugMode% )
+    arachne.linknewtab: Arachne\LinkNewTab\DI\LinkNewTabExtension
